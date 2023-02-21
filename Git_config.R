@@ -16,4 +16,3 @@ GITHUB_PAT=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
 
 ## and make sure '.Renviron' ends with a newline
 
-library(ggplot2)

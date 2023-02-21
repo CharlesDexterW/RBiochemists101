@@ -50,6 +50,8 @@ p <- p + stat_smooth(method = "lm", formula = y ~ x) +
          ylab("Absorbance (570nm)") +      # label y-axis
          ggtitle("Protein Assay")          # add a title
 
+p + geom_point(colour ="blue")
+p + geom_point(size =5, colour ="red")
 p
 
 # save you're output wtih Export or
